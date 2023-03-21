@@ -1,4 +1,27 @@
+html {
+	scroll-behavior: smooth;
+}
+
 #home {
 	background: #ffc107;
 	color: white;
+}
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+	margin: 5px 15px;
+}
+
+@media (max-width: 576px) {
+	#home h1 {
+		font-size: 2.75em;
+	}
+
+	#xablau {
+		justify-content: center;
+	}
 }
